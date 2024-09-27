@@ -16,7 +16,6 @@ public class Exercise10 {
             System.out.println("La bola es de color: "+bola);
             if (bola.equals("azul")){
                 bolasAzules=bolasAzules+1;
-                System.out.println("Numero de bolas azules: "+bolasAzules);
             }
         }while (bolasAzules<2);
         System.out.println(bolasAzules);
